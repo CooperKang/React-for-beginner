@@ -26,7 +26,7 @@ function Detail() {
           <Movie
             key={movie.id}
             idN={movie.id}
-            coverImg={movie.small_cover_image}
+            coverImg={movie.medium_cover_image}
             title={movie.title_long}
             summary={movie.description_full}
             genres={movie.genres}
